@@ -293,6 +293,12 @@
 
 *** pcolor(pcolormesh) vs. imshow vs. scatter
 
+    Note that, ~imshow~, can directly convert a matrix to an image by
+
+    #+BEGIN_SRC ipython :session :exports both :async t :results raw drawer
+plt.imshow('2d_ndarray')
+    #+END_SRC
+
     | pcolor(pcolormesh)    | imshow                 | scatter         |
     |-----------------------+------------------------+-----------------|
     | slow                  | fast                   | resize markers  |

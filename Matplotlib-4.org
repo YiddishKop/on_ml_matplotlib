@@ -699,7 +699,7 @@ matplotlib can use ~rc()~, for example:
 
 | np.mgrid[slicing1, slicing2] | np.meshgrid(arr1,arr2)                | np.ogrid[slicing1,slicing2] |
 |------------------------------+---------------------------------------+-----------------------------|
-| np.mgrid[0:5, 5:9]           | np.meshgrid(arange(0,5), arange(5,9)) | np.ogrid[0:5, 5:9]          |
+| np.mgrid[0:4, 1:10]         | np.meshgrid(arange(0,4), arange(1,10)) | np.ogrid[0:4, 1:10]        |
 | *WRONG* mgrid(arr1,arr2)     | *WRONG* meshgrid[0:5, 5:9]            | *WRONG* ogrid(arr1, arr2)   |
 |------------------------------+---------------------------------------+-----------------------------|
 | return array                 | return list                           | return array                |
