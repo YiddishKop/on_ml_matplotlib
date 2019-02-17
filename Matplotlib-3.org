@@ -1,9 +1,9 @@
 #+TITLE: Matplotlib
 
 * part-II, Plotting_Methods_Overviwe
-#+BEGIN_SRC ipython :session :exports both :async t :results raw drawer
+#+BEGIN_SRC python :session mat :exports both :async t :results raw drawer
   # Let's get our standard imports out of the way
-  %matplotlib inline
+  # %matplotlib inline
   from __future__ import print_function
   import numpy as np
   import matplotlib
@@ -13,7 +13,6 @@
 
 #+RESULTS:
 :RESULTS:
-# Out[120]:
 :END:
 
 ** The Basics: 1D series/points
@@ -78,8 +77,7 @@
 
     #+RESULTS:
     :RESULTS:
-    # Out[83]:
-    [[file:./obipy-resources/17284WVc.png]]
+    80 - f17e032f-4a08-42c1-aa37-e5cb9b2928e8
     :END:
 
 *** fill regions: ~ax.fill(x, y)~ or ~fill_between(...)~
